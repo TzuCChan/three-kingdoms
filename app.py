@@ -6,6 +6,6 @@ def emperor(name, weapon):
     this_weapon = (weapon,)
 
 
-Wei = emperor('Cao Cao'),
-Shu = emperor('Liu Bei'),
-Wu = emperor('Sun Quan'),
+Wei = emperor('Cao Cao', 'General Sword'),
+Shu = emperor('Liu Bei', 'Twin Swords'),
+Wu = emperor('Sun Quan', 'Tiger Sword'),
