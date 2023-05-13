@@ -1,11 +1,18 @@
 print("script loaded")
+class Emperor:
+    def __init__(name, weapon):
+        name.weapon = weapon
+        weapon = 3
 
 
 def emperor(name, weapon):
-    this_name = (name,)
-    this_weapon = (weapon,)
+    this_name = (name)
+    this_weapon = (weapon)
 
 
-Wei = emperor('Cao Cao', 'General Sword'),
-Shu = emperor('Liu Bei', 'Twin Swords'),
-Wu = emperor('Sun Quan', 'Tiger Sword'),
+Wei = Emperor('Cao Cao', 'General Sword'),
+Shu = Emperor('Liu Bei', 'Twin Swords'),
+Wu = Emperor('Sun Quan', 'Tiger Sword'),
+
+def battle(name):
+    this_name = (name)
